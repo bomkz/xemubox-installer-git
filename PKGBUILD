@@ -1,12 +1,12 @@
 pkgname=xemubox-installer-git
-pkgver=0.0.1
-pkgrel=1
+pkgver=0.0.10
+pkgrel=4
 pkgdesc='XemuBOX Installer Utility, used by the XemuBOX install ISO.'
 arch=('x86_64')
 url=https://github.com/bomkz/xemubox-installer
 license=('The Unlicense')
 makedepends=('go')
-source=("git+https://github.com/bomkz/xemubox-installer.git#tag=$pkgver")
+source=("git+https://github.com/bomkz/xemubox-installer.git")
 sha256sums=("SKIP")
 srcname=xemubox-installer
 
